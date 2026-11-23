@@ -1,87 +1,131 @@
-# flexspo — Premium Typing Speed Test Web App
+# Flexspo
 
-A modern, responsive, high-performance Typing Speed Test web application designed as a premium productivity-meets-gaming experience.
+**A modern typing speed test built to measure how fast and accurately you type.**
 
-## ✨ Features
-
-### 1. Test Modes & Difficulty
-- **Timed Mode**: 60-second high-intensity countdown timer.
-- **Passage Mode**: Open-ended count-up timer until the full passage is completed.
-- **Mode Switching Guard**: Smooth mode switching in idle state; locked during active runs to prevent state corruption unless explicitly restarted.
-- **3 Difficulty Tiers**:
-  - **Easy**: Simple vocabulary, everyday words, and short sentences.
-  - **Medium**: Balanced sentence structures, standard punctuation, and moderately complex vocabulary.
-  - **Hard**: Complex clauses, punctuation, technical terminology, and challenging structures.
-- **Dynamic Passage Loading**: Loads from local `data.json` with multi-schema normalization and guaranteed random passage selection on every restart.
-
-### 2. Real-Time Precision Metrics
-- **WPM (Words Per Minute)**: Standard CPM/5 calculation based strictly on correctly typed characters: `(correctCharacters / 5) / (elapsedMinutes)`.
-- **Cumulative Accuracy %**: Accurately accounts for all attempted keystrokes. Correcting mistakes with Backspace does **not** erase the cumulative penalty.
-- **Character Counters**: Live breakdown of correctly typed characters, active errors, and cumulative errors.
-- **Time Elapsed / Remaining**: Real-time counter with visual urgency pulses in the final 10 seconds of timed mode.
-- **Live Progress Bar**: Shows passage completion percentage in real time.
-
-### 3. Gamified & Interactive "Fun" Elements
-- **Dynamic Streak & Combo Multiplier**: Real-time counter for consecutive correct keystrokes with milestone badges (`5x`, `25x`, `50x`, `75x`).
-- **WPM Surge Animation**: Subtle scale and glowing animation when typing velocity jumps.
-- **Milestone Banners**: Encouraging feedback alerts triggered by streaks and speed milestones:
-  - *"You're warming up! 🔥"*
-  - *"Nice rhythm! ✨"*
-  - *"You're on fire! ⚡"*
-  - *"Speed demon! 🚀"*
-  - *"Precision machine! 💎"*
-  - *"That was clean! 🎯"*
-- **Synthesized Web Audio Effects**: OFF by default, built entirely with the browser Web Audio API:
-  - Mechanical switch key clicks
-  - Subtle error buzz
-  - Uplifting streak milestone chimes
-  - Celebratory victory fanfare
-- **Multi-Particle Confetti**: Powered by Canvas Confetti when a personal best is smashed.
-
-### 4. Personal Best & Records (localStorage)
-- **First Completed Test**: Displays `"Baseline Established!"` with celebratory sound and benchmark saving.
-- **New Record**: Displays `"High Score Smashed!"` with confetti celebration and delta comparisons against previous best.
-- **Subsequent Tests**: Displays `"Test Complete!"` with performance encouragement.
-
-### 5. Keyboard-First UX & Accessibility
-- **Zero-Click Immediate Typing**: Start typing instantly without needing to click any input.
-- **Visible Cursor**: Smooth pulsing caret positioned accurately at the next untyped character.
-- **Space Error Visualization**: Mistyped spaces render with a distinct `␣` badge.
-- **Auto-Scrolling**: Keeps active text line smoothly centered in the viewport.
-- **Keyboard Shortcuts**:
-  - `Esc`: Instant restart with a fresh passage.
-  - `Enter` / `Space`: Instant "Play Again" from the results modal.
-  - `Backspace`: Correction support.
-- **Full WCAG Accessibility**: ARIA roles, focus rings, semantic color palettes (not relying solely on color), and `@media (prefers-reduced-motion)` support.
+Flexspo is a clean, interactive typing speed test application that helps users evaluate their typing performance through timed challenges. It tracks typing speed, accuracy, errors, and progress in real time, providing a focused environment for improving keyboard skills.
 
 ---
 
-## 🛠️ Tech Stack
+## Overview
 
-- **Framework**: React 19 + TypeScript
-- **Styling**: Tailwind CSS (Dark Mode, Custom Design System)
-- **Icons**: Lucide React
-- **Celebration**: Canvas-Confetti
-- **Audio**: Web Audio API (zero asset dependencies)
-- **Build Tool**: Vite 6
-- **Test Runner**: Vitest + Testing Library + jsdom
+Flexspo combines a distraction-free typing interface with real-time performance tracking to create an engaging typing test experience. Users can select their preferred difficulty, complete typing passages, and analyze their performance after each test.
 
----
+The application is designed with a focus on usability, responsive design, and smooth interactions.
 
-## 🚀 Getting Started
+## Features
 
-### Development Server
+- **Real-Time WPM Tracking** – Monitor words per minute while typing.
+- **Accuracy Tracking** – Measure typing accuracy based on correctly typed characters.
+- **Timed Typing Tests** – Complete tests within a defined time limit.
+- **Difficulty Levels** – Practice with different passage difficulty levels.
+- **Live Character Tracking** – Identify correct, incorrect, and upcoming characters.
+- **Passage Selection** – Practice with dynamically selected passages.
+- **Typing Progress** – Track your progress throughout the test.
+- **Performance Summary** – Review your typing results when the test ends.
+- **Restart Functionality** – Restart a test and try to improve your score.
+- **Responsive Interface** – Designed to work across different screen sizes.
+- **Keyboard-Focused Experience** – Keep the typing experience fast, intuitive, and distraction-free.
+
+## Tech Stack
+
+- React
+- TypeScript
+- CSS
+- JSON-based passage dataset
+
+## How It Works
+
+1. Choose your preferred typing difficulty.
+2. Start the typing test.
+3. Type the displayed passage as accurately and quickly as possible.
+4. Monitor your typing progress and performance.
+5. Complete the test and review your results.
+6. Restart and try to improve your WPM and accuracy.
+
+## Performance Metrics
+
+| Metric | Description |
+|---|---|
+| WPM | Measures typing speed in words per minute. |
+| Accuracy | Measures the percentage of correctly typed characters. |
+| Errors | Tracks incorrectly typed characters. |
+| Time | Tracks the duration of the typing test. |
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/RuchilParkar/flexspo.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd flexspo
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
 ```bash
 npm run dev
 ```
 
-### Run Tests
-```bash
-npm test
+Open the local URL provided by your development server.
+
+## Project Structure
+
+```text
+flexspo/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── data/
+│   └── ...
+├── package.json
+├── tsconfig.json
+└── README.md
 ```
 
-### Production Build
-```bash
-npm run build
-npm run preview
-```
+*The directory structure may vary depending on the implementation.*
+
+## Future Improvements
+
+- Personal typing history
+- Leaderboards
+- Advanced typing analytics
+- Custom test duration
+- Multiplayer typing challenges
+- Daily typing challenges
+- Personal best tracking
+- Additional passage categories
+
+## Contributing
+
+Contributions, suggestions, bug reports, and feature requests are welcome.
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Open a Pull Request.
+
+## Author
+
+**Ruchil Parkar**
+
+
+- LinkedIn: [Ruchil Parkar](https://www.linkedin.com/in/ruchilparkar/)
+
+---
+
+Built with focus, precision, and a love for better user experiences.
+
+**Flexspo**
