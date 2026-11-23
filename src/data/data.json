@@ -1,0 +1,265 @@
+{
+  "easy": [
+    {
+      "id": 1,
+      "title": "Sunny Morning",
+      "text": "The morning sun was warm and bright. A gentle breeze moved through the trees as birds sang their morning songs. Children played happily in the park while families walked along the peaceful path."
+    },
+    {
+      "id": 2,
+      "title": "The Little Garden",
+      "text": "Small flowers bloomed along the wooden fence. Red roses and yellow daisies opened up to greet the day. A tiny honeybee flew from petal to petal collecting sweet nectar in the quiet garden."
+    },
+    {
+      "id": 3,
+      "title": "Fresh Baked Bread",
+      "text": "The smell of fresh warm bread filled the small kitchen. Golden crusts cooled on the wooden table while butter melted slowly on a fresh warm slice. Breakfast was ready for the whole family."
+    },
+    {
+      "id": 4,
+      "title": "By the Ocean",
+      "text": "Gentle waves rolled onto the sandy shore. White shells sparkled in the warm sunlight while children built small sandcastles near the water. The cool ocean breeze felt refreshing on a sunny afternoon."
+    },
+    {
+      "id": 5,
+      "title": "Quiet Reading",
+      "text": "Rain tapped lightly against the window glass. A cozy armchair sat in the corner of the room with a soft wool blanket and a favorite storybook. It was a perfect afternoon to read quietly."
+    }
+  ],
+  "medium": [
+    {
+      "id": 101,
+      "title": "The Art of Programming",
+      "text": "Writing clean code is both a craft and a discipline. Developers break down complex problems into smaller, manageable components, crafting algorithms that are efficient, readable, and resilient against unexpected edge cases."
+    },
+    {
+      "id": 102,
+      "title": "Urban Architecture",
+      "text": "Modern skyscrapers blend innovative engineering with sustainable design. Reflective glass panels capture natural daylight, while internal energy systems reduce waste, creating dynamic city skylines that balance form and environmental responsibility."
+    },
+    {
+      "id": 103,
+      "title": "Deep Sea Exploration",
+      "text": "Submersibles descend into the midnight zone of the ocean, where sunlight never penetrates. In this extreme high-pressure environment, bioluminescent creatures illuminate the dark waters with vibrant flashes of neon blue and emerald light."
+    },
+    {
+      "id": 104,
+      "title": "The Coffee Ritual",
+      "text": "Brewing a balanced cup of pour-over coffee requires precision. Grinding freshly roasted beans to an exact consistency and maintaining water temperature around ninety-three degrees Celsius unlocks nuanced notes of stone fruit, cocoa, and jasmine."
+    },
+    {
+      "id": 105,
+      "title": "Musical Harmony",
+      "text": "A symphony orchestra unites diverse instruments into a cohesive emotional journey. String sections provide lush foundations, woodwinds offer expressive melodies, and brass flourishes punctuate triumphant crescendos that resonate across the concert hall."
+    }
+  ],
+  "hard": [
+    {
+      "id": 201,
+      "title": "Asynchronous Concurrency",
+      "text": "Modern runtime environments execute non-blocking I/O operations through an optimized event loop: microtasks, promise rejections, and asynchronous generators decouple computational throughput from latency-sensitive network requests—yielding sub-millisecond response rates."
+    },
+    {
+      "id": 202,
+      "title": "Astrophysical Wonders",
+      "text": "Relativistic gravitational lensing occurs when massive celestial bodies—such as galaxy clusters or supermassive black holes—warp the fabric of spacetime, bending electromagnetic trajectories and magnifying distant quasars by factors exceeding 150%."
+    },
+    {
+      "id": 203,
+      "title": "Cryptographic Protocols",
+      "text": "Zero-knowledge succinct non-interactive arguments of knowledge (zk-SNARKs) enable cryptographic provers to authenticate computational validity without disclosing underlying private parameters; mathematical guarantees rely upon elliptic-curve pairings and polynomial commitments."
+    },
+    {
+      "id": 204,
+      "title": "Cognitive Neuroscience",
+      "text": "Neuroplasticity facilitates dendritic spine morphogenesis through synchronized synaptic firing patterns; long-term potentiation (LTP) consolidates declarative episodic memories within hippocampal-neocortical networks, defying rigid localization dogma."
+    },
+    {
+      "id": 205,
+      "title": "Distributed Consensus",
+      "text": "Byzantine fault-tolerant consensus mechanisms establish verifiable distributed state machines across untrusted peer-to-peer topologies; Paxos and Raft variants coordinate state transitions, resolving partitioned quorum quorums under network latency volatility."
+    },
+    {
+      "id": 206,
+      "title": "Quantum Computing",
+      "text": "Quantum superposition permits qubits to inhabit linear combinations of orthogonal basis states; surface-code error mitigation, coherent microwave control, and entanglement distillation illustrate how decoherence thresholds govern scalable quantum computing architectures."
+    },
+    {
+      "id": 207,
+      "title": "The Architecture of Distributed Systems",
+      "text": "Designing scalable distributed systems entails navigating trade-offs between consistency, availability, and partition tolerance; event-driven messaging topologies and partitioned database shards decouple throughput bottlenecks across globally replicated clusters."
+    },
+    {
+      "id": 208,
+      "title": "Artificial Intelligence and Ethics",
+      "text": "Algorithmic decision systems necessitate rigorous validation frameworks to mitigate systematic bias, maintain model explainability, and preserve human agency; ethical governance protocols balance predictive capability against fundamental societal rights."
+    },
+    {
+      "id": 209,
+      "title": "The Mathematics of Chaos",
+      "text": "Nonlinear dynamical systems exhibit extreme sensitivity to infinitesimal perturbations in initial parameters—an intrinsic deterministic unpredictability visualized through strange attractors, bifurcations, and fractal phase-space trajectories."
+    }
+  ],
+  "extreme": [
+    {
+      "id": 301,
+      "title": "Cryptographic Vulnerabilities",
+      "text": "Side-channel vulnerabilities—ranging from differential power analysis to microarchitectural cache-timing exploits (e.g., Spectre and Meltdown)—undermine mathematical cryptographic primitives, demonstrating that theoretical security proofs collapse without constant-time hardware isolation."
+    },
+    {
+      "id": 302,
+      "title": "The Complexity of Asynchronous Execution",
+      "text": "Coordinating non-deterministic asynchronous execution across microtask queues introduces re-entrancy anomalies, unhandled promise rejections, and cascading race conditions; ensuring atomic state transitions requires preemptive backpressure and distributed mutex locks."
+    },
+    {
+      "id": 303,
+      "title": "Astrophysics Beyond Observation",
+      "text": "Observational constraints near gravitational event horizons necessitate indirect multi-messenger astrophysics: relativistic magnetohydrodynamic simulations, polarized synchrotron emissions, and gravitational wave interferometry reconstruct cosmic phenomena beyond direct optical resolution."
+    },
+    {
+      "id": 304,
+      "title": "Engineering Reliable Autonomous Systems",
+      "text": "Safety-critical autonomous architectures must reconcile high-frequency perception latency with deterministic control bounds (sub-10ms deadlines); redundant sensor fusion (LiDAR, radar, computer vision) and fail-operational actuators prevent catastrophic mode confusion."
+    }
+  ],
+  "passages": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "title": "Sunny Morning",
+      "text": "The morning sun was warm and bright. A gentle breeze moved through the trees as birds sang their morning songs. Children played happily in the park while families walked along the peaceful path."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "title": "The Little Garden",
+      "text": "Small flowers bloomed along the wooden fence. Red roses and yellow daisies opened up to greet the day. A tiny honeybee flew from petal to petal collecting sweet nectar in the quiet garden."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "title": "Fresh Baked Bread",
+      "text": "The smell of fresh warm bread filled the small kitchen. Golden crusts cooled on the wooden table while butter melted slowly on a fresh warm slice. Breakfast was ready for the whole family."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "title": "By the Ocean",
+      "text": "Gentle waves rolled onto the sandy shore. White shells sparkled in the warm sunlight while children built small sandcastles near the water. The cool ocean breeze felt refreshing on a sunny afternoon."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "title": "Quiet Reading",
+      "text": "Rain tapped lightly against the window glass. A cozy armchair sat in the corner of the room with a soft wool blanket and a favorite storybook. It was a perfect afternoon to read quietly."
+    },
+    {
+      "id": 101,
+      "difficulty": "medium",
+      "title": "The Art of Programming",
+      "text": "Writing clean code is both a craft and a discipline. Developers break down complex problems into smaller, manageable components, crafting algorithms that are efficient, readable, and resilient against unexpected edge cases."
+    },
+    {
+      "id": 102,
+      "difficulty": "medium",
+      "title": "Urban Architecture",
+      "text": "Modern skyscrapers blend innovative engineering with sustainable design. Reflective glass panels capture natural daylight, while internal energy systems reduce waste, creating dynamic city skylines that balance form and environmental responsibility."
+    },
+    {
+      "id": 103,
+      "difficulty": "medium",
+      "title": "Deep Sea Exploration",
+      "text": "Submersibles descend into the midnight zone of the ocean, where sunlight never penetrates. In this extreme high-pressure environment, bioluminescent creatures illuminate the dark waters with vibrant flashes of neon blue and emerald light."
+    },
+    {
+      "id": 104,
+      "difficulty": "medium",
+      "title": "The Coffee Ritual",
+      "text": "Brewing a balanced cup of pour-over coffee requires precision. Grinding freshly roasted beans to an exact consistency and maintaining water temperature around ninety-three degrees Celsius unlocks nuanced notes of stone fruit, cocoa, and jasmine."
+    },
+    {
+      "id": 105,
+      "difficulty": "medium",
+      "title": "Musical Harmony",
+      "text": "A symphony orchestra unites diverse instruments into a cohesive emotional journey. String sections provide lush foundations, woodwinds offer expressive melodies, and brass flourishes punctuate triumphant crescendos that resonate across the concert hall."
+    },
+    {
+      "id": 201,
+      "difficulty": "hard",
+      "title": "Asynchronous Concurrency",
+      "text": "Modern runtime environments execute non-blocking I/O operations through an optimized event loop: microtasks, promise rejections, and asynchronous generators decouple computational throughput from latency-sensitive network requests—yielding sub-millisecond response rates."
+    },
+    {
+      "id": 202,
+      "difficulty": "hard",
+      "title": "Astrophysical Wonders",
+      "text": "Relativistic gravitational lensing occurs when massive celestial bodies—such as galaxy clusters or supermassive black holes—warp the fabric of spacetime, bending electromagnetic trajectories and magnifying distant quasars by factors exceeding 150%."
+    },
+    {
+      "id": 203,
+      "difficulty": "hard",
+      "title": "Cryptographic Protocols",
+      "text": "Zero-knowledge succinct non-interactive arguments of knowledge (zk-SNARKs) enable cryptographic provers to authenticate computational validity without disclosing underlying private parameters; mathematical guarantees rely upon elliptic-curve pairings and polynomial commitments."
+    },
+    {
+      "id": 204,
+      "difficulty": "hard",
+      "title": "Cognitive Neuroscience",
+      "text": "Neuroplasticity facilitates dendritic spine morphogenesis through synchronized synaptic firing patterns; long-term potentiation (LTP) consolidates declarative episodic memories within hippocampal-neocortical networks, defying rigid localization dogma."
+    },
+    {
+      "id": 205,
+      "difficulty": "hard",
+      "title": "Distributed Consensus",
+      "text": "Byzantine fault-tolerant consensus mechanisms establish verifiable distributed state machines across untrusted peer-to-peer topologies; Paxos and Raft variants coordinate state transitions, resolving partitioned quorum quorums under network latency volatility."
+    },
+    {
+      "id": 206,
+      "difficulty": "hard",
+      "title": "Quantum Computing",
+      "text": "Quantum superposition permits qubits to inhabit linear combinations of orthogonal basis states; surface-code error mitigation, coherent microwave control, and entanglement distillation illustrate how decoherence thresholds govern scalable quantum computing architectures."
+    },
+    {
+      "id": 207,
+      "difficulty": "hard",
+      "title": "The Architecture of Distributed Systems",
+      "text": "Designing scalable distributed systems entails navigating trade-offs between consistency, availability, and partition tolerance; event-driven messaging topologies and partitioned database shards decouple throughput bottlenecks across globally replicated clusters."
+    },
+    {
+      "id": 208,
+      "difficulty": "hard",
+      "title": "Artificial Intelligence and Ethics",
+      "text": "Algorithmic decision systems necessitate rigorous validation frameworks to mitigate systematic bias, maintain model explainability, and preserve human agency; ethical governance protocols balance predictive capability against fundamental societal rights."
+    },
+    {
+      "id": 209,
+      "difficulty": "hard",
+      "title": "The Mathematics of Chaos",
+      "text": "Nonlinear dynamical systems exhibit extreme sensitivity to infinitesimal perturbations in initial parameters—an intrinsic deterministic unpredictability visualized through strange attractors, bifurcations, and fractal phase-space trajectories."
+    },
+    {
+      "id": 301,
+      "difficulty": "extreme",
+      "title": "Cryptographic Vulnerabilities",
+      "text": "Side-channel vulnerabilities—ranging from differential power analysis to microarchitectural cache-timing exploits (e.g., Spectre and Meltdown)—undermine mathematical cryptographic primitives, demonstrating that theoretical security proofs collapse without constant-time hardware isolation."
+    },
+    {
+      "id": 302,
+      "difficulty": "extreme",
+      "title": "The Complexity of Asynchronous Execution",
+      "text": "Coordinating non-deterministic asynchronous execution across microtask queues introduces re-entrancy anomalies, unhandled promise rejections, and cascading race conditions; ensuring atomic state transitions requires preemptive backpressure and distributed mutex locks."
+    },
+    {
+      "id": 303,
+      "difficulty": "extreme",
+      "title": "Astrophysics Beyond Observation",
+      "text": "Observational constraints near gravitational event horizons necessitate indirect multi-messenger astrophysics: relativistic magnetohydrodynamic simulations, polarized synchrotron emissions, and gravitational wave interferometry reconstruct cosmic phenomena beyond direct optical resolution."
+    },
+    {
+      "id": 304,
+      "difficulty": "extreme",
+      "title": "Engineering Reliable Autonomous Systems",
+      "text": "Safety-critical autonomous architectures must reconcile high-frequency perception latency with deterministic control bounds (sub-10ms deadlines); redundant sensor fusion (LiDAR, radar, computer vision) and fail-operational actuators prevent catastrophic mode confusion."
+    }
+  ]
+}
